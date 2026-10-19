@@ -1,8 +1,0 @@
-Substitua o bloco "scripts" do package.json por este:
-
-"scripts": {
-  "build:sass": "sass sass/style.scss css/sass-style.css",
-  "build:less": "lessc less/style.less css/less-style.css",
-  "build": "npm run build:sass && npm run build:less",
-  "watch:sass": "sass --watch sass/style.scss css/sass-style.css"
-}
